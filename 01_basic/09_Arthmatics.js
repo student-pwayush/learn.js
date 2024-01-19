@@ -1,5 +1,5 @@
 // ++++++++++++++++++++ NUMS  ++++++++++
-const score = 400
+//const score = 400
 //console.log(score);
 
 const balance = new Number(500)
@@ -15,7 +15,7 @@ const balance = new Number(500)
 const anotherString = new Number(452.485)
 
 //console.log(anotherString.toPrecision(5));
-// isne ham logo ki 5 value ki aprox jo ki 8 hai usko 9 lia hai  tak ki digit li 
+// isme ham logo ki 5 value ki aprox jo ki 8 hai usko 9 lia hai  tak ki digit li 
 
 const hundreds = 100000000
 //console.log(hundreds.toLocaleString());
@@ -27,37 +27,49 @@ const hundreds = 100000000
 
 // +++++++++++++++++++++++++    MATHS   +++++++++++
 
-console.log(Math);
+//console.log(Math);
 // isme ham logo ki bohat bvalue hai jisa ki object , [array], {} etc 
 
-// console.log(Math);
-// console.log(Math.abs(-4));
+//console.log(Math);
+console.log(Math.abs(-4));
 // isme ham log ka sign change hoga bs baki value vahi rahegi
 
-//console.log(Math.round(4.6));
+console.log(Math.round(4.6));
 //isme ham logo ki value 5 aayegi roung value lega 
 
-//console.log(Math.ceil(5.2));
+console.log(Math.ceil(5.2));
 // isme ham logo ka sidhe 5.2 hai toh 6 lega 
 
-// console.log(Math.floor(4.9));
+console.log(Math.floor(4.9));
 // agar ham logo ki value 4 hai toh voo uthna na hi lega jitna hai . ki value nahi leta hai 
 
-// console.log(Math.min(4, 3, 6, 8));
+console.log(Math.min(4, 3, 6, 8));
 //sime choti value leta hai 
 
-// console.log(Math.max(4, 3, 6, 8));
+console.log(Math.max(4, 3, 6, 8));
 //isme badi value leta hain
 
 console.log(Math.random());
 // isme ham logo ki value always 0 se 1 ki bich mein aayegi aur always change karegi
 
 
-//console.log((Math.random()*10) + 1);
-//console.log(Math.floor(Math.random()*10) + 1);
+console.log(Math.random());
+console.log(Math.floor(Math.random()*10) + 1);
+// *10 isliye kiya hai ki jo value aaye vo 0 na aaye aur +1 islye liya hai ki 0 na aaye point k baad bhi
 
-//const min = 10
-//const max = 20
 
-//console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
+// == NOTE -  important (1) 
+
+const min = 10
+const max = 20
+
+console.log((Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min)
+//isme ham logo badi value lenge jo ki min se
+
+const newmin = 50
+const newmax = 100
+
+console.log(Math.floor(Math.random() * (newmin - newmax + 1 )) - newmin)
+//isme ham logo choti value lenge jo ki min se
