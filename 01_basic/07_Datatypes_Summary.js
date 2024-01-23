@@ -106,14 +106,3 @@ console.log(userTwo);
 //Node
 //email : "ayushchangfekkl522" ki pahle value ya lin ythi but next---- userTwo mein ham logo ne userTwo.email = "satysymhdhsh255", ya li hai isliya ham logo ki valye dodno mein change ho gayi 
 // isko bolte hai heap always refrence ki value leta hai 
-Example
-let uesrFour = {
-  email: "ayushgtdhsvv2848",
-  name : "aaaaaaAyush"
-} 
-
-let userFive = uesrFour
-email: "ajudsegged275"
-
-console.log(uesrFour);
-console.log(userFive);
