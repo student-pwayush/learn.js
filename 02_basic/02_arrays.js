@@ -23,9 +23,11 @@ const politican = ["Modiji", "Yogiji", "Amitshah", "Rajanthsingh"]
 // isme sabhi ek saath aa jayenge.
 
 // console.log(Array.isArray("Ayush Chandel"))
-// // ise pata karte hai array hai ta nahi 
+// // ise pata karte hai array hai ta nahi
+ 
 // console.log(Array.from("Ayush Chandel"))
 // // isme ham logo array bna dete hain 
+
 // console.log(Array.from({ name: "Ayush Chandel"})); 
 // // yeh ham logo ka interview mein puchte hai kya aata hai karne par [] yaa vala bracket aata hai 
 
